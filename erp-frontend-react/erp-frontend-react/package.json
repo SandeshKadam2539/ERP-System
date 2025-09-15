@@ -1,0 +1,32 @@
+{
+  "name": "erp-frontend-react",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "echo \"(add eslint/prettier if you like)\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.26.2",
+    "axios": "^1.7.7",
+    "@mui/material": "^6.1.3",
+    "@mui/icons-material": "^6.1.3",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "react-hook-form": "^7.53.0",
+    "@hookform/resolvers": "^3.9.0",
+    "yup": "^1.4.0",
+    "recharts": "^2.12.7",
+    "jwt-decode": "^4.0.0",
+    "dayjs": "^1.11.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+  }
+}
